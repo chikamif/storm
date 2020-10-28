@@ -1,4 +1,4 @@
-module github.com/asdine/storm
+module github.com/chikamif/storm
 
 go 1.15
 

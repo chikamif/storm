@@ -3,8 +3,8 @@ package storm
 import (
 	"os"
 
-	"github.com/asdine/storm/codec"
-	"github.com/asdine/storm/index"
+	"github.com/chikamif/storm/codec"
+	"github.com/chikamif/storm/index"
 	bolt "go.etcd.io/bbolt"
 )
 

@@ -1,12 +1,12 @@
 package storm
 
 import (
+	"github.com/chikamif/storm/index"
+	"github.com/chikamif/storm/q"
+	bolt "go.etcd.io/bbolt"
 	"reflect"
 	"sort"
 	"time"
-	"github.com/asdine/storm/index"
-	"github.com/asdine/storm/q"
-	bolt "go.etcd.io/bbolt"
 )
 
 type item struct {

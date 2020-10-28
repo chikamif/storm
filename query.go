@@ -1,8 +1,8 @@
 package storm
 
 import (
-	"github.com/asdine/storm/internal"
-	"github.com/asdine/storm/q"
+	"github.com/chikamif/storm/internal"
+	"github.com/chikamif/storm/q"
 	bolt "go.etcd.io/bbolt"
 )
 

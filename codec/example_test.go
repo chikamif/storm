@@ -3,9 +3,9 @@ package codec_test
 import (
 	"fmt"
 
-	"github.com/asdine/storm"
-	"github.com/asdine/storm/codec/gob"
-	"github.com/asdine/storm/codec/json"
+	"github.com/chikamif/storm"
+	"github.com/chikamif/storm/codec/gob"
+	"github.com/chikamif/storm/codec/json"
 )
 
 func Example() {

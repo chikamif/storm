@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/asdine/storm/codec/gob"
-	"github.com/asdine/storm/codec/json"
-	bolt "go.etcd.io/bbolt"
+	"github.com/chikamif/storm/codec/gob"
+	"github.com/chikamif/storm/codec/json"
 	"github.com/stretchr/testify/require"
+	bolt "go.etcd.io/bbolt"
 )
 
 func TestGet(t *testing.T) {
